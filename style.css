@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: azure;
+  background-image: url('imagnes/wallpaper2.jpg');
+  background-size: 100%;
+}
+
+.container{
+  background-color: antiquewhite;
+  width: 520px;
+  height: 520px;
+  border: 10px solid rgb(124, 124, 122);
+}
+
+.block{
+  width: 100px;
+  height: 100px;
+  background-image: url('imagnes/bloco.jpg');
+  float: left;
+}
+
+.block:hover{
+  width: 100px;
+  height: 100px;
+  background-image: url('imagnes/blocohover.jpg');
+  float: left;
+}
+
+.bomba{
+  width: 100px;
+  height: 100px;
+  background-image: url('imagnes/bomba.jpg');
+  float: left;
+}
+
+.vazio{
+  width: 100px;
+  height: 100px;
+  background-image: url('imagnes/vazio.jpg');
+  float: left;
+}
+
+.end{
+  border:  3px solid #000;
+  border-radius: 20px;
+  background-color: rgb(161, 161, 159);
+  width: 700px;
+  height: 200px;
+  position: absolute;
+  display: none;
+}
+
+.end2{
+  border:  3px solid #000;
+  border-radius: 20px;
+  background-color: rgb(161, 161, 159);
+  width: 700px;
+  height: 200px;
+  position: absolute;
+}
+
+h1{
+  text-align: center;
+  margin-top: 70px;
+}
+
+button{
+  background-color: rgb(189, 187, 184);
+  width: 100px;
+  border-radius: 40px;
+  position: relative;
+  top: 60px;
+  left: 300px;
+  cursor: pointer;
+}
+
+button img{
+  max-width: 50px;
+}
